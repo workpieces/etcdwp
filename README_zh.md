@@ -12,11 +12,11 @@
 
 ## 版本支持
 
-该产品免费使用.
+- 该产品免费使用.
 
-**Macos Version >= 11.0**
+- **Macos Version >= 11.0**
 
-界面效果图：
+- 界面效果图：
 
 ![ETCDWP](etcdwp.png "ETCDWP")
 ## ETCDWP
