@@ -12,7 +12,7 @@ English | [简体中文](./README_zh.md)
 
 该产品免费使用.
 
-**Macos Version >= 11.0 **
+**Macos Version >= 11.0**
 
 界面效果图：
 
