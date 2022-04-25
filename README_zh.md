@@ -1,6 +1,7 @@
 ![ETCDWP](icon.png "ETCDWP")
 
 ---
+
 [![MPLv2 License][6]][7]
 [![Discord invite][8]][9]
 [![Docs site][5]][3]
@@ -13,7 +14,12 @@
 
 **Macos Version >= 11.0**
 
+该产品免费使用.
 
+
+界面效果图：
+
+![ETCDWP](etcdwp.png "ETCDWP")
 ## ETCDWP
 
 Etcd**是一个开源的分布式统一键值存储，用于分布式系统或计算机集群的共享配置、服务发现和调度协调**。Etcd 有助于促进更安全的自动更新，协调对主机的调度，并帮助设置容器的覆盖网络。
