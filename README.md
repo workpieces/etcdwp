@@ -46,7 +46,7 @@ ETCDWP should be:
 - Apple store download please visit [APP Store][1]
 
 
-DMG download please visit [DMG Release][2]
+- DMG download please visit [DMG Release][2]
 
 
 ## Documentation
