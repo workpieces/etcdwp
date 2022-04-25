@@ -19,7 +19,7 @@ English | [简体中文](./README_zh.md)
 ![ETCDWP](etcdwp.png "ETCDWP")
 ## ETCDWP
 
-Etcd (pronounced et-see-dee) is **an open source distributed unified key-value store for shared configuration, service discovery, and scheduling coordination of distributed systems or clusters of computers**. Etcd helps facilitate more secure automatic updates, coordinates scheduling to hosts, and helps set up the container's overlay network.
+Etcd is **an open source distributed unified key-value store for shared configuration, service discovery, and scheduling coordination of distributed systems or clusters of computers**. Etcd helps facilitate more secure automatic updates, coordinates scheduling to hosts, and helps set up the container's overlay network.
 
 Etcd is a **core component of many other projects. Most notably, it is the primary data store for Kubernetes and the de facto standard system for container orchestration**. Using ETCD, cloud native applications can maintain more consistent uptime and function in the event of individual server failures. The application reads data from etCD and writes to it; Distributed configuration data provides redundancy and flexibility for node configuration.
 
