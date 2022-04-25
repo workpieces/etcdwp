@@ -7,7 +7,7 @@
 [![Latest Mac Download][10]][2]
 
 
-[English]([README.md) | 简体中文
+[English]([./README.md) | 简体中文
 
 ## 版本支持
 
