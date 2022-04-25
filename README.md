@@ -7,10 +7,10 @@
 [![Latest Mac Download][10]][2]
 
 
+English | [简体中文](./README_zh.md)
 ## Support
 
 **Macos Version >= 11.0**
-
 ## ETCDWP
 
 Etcd (pronounced et-see-dee) is **an open source distributed unified key-value store for shared configuration, service discovery, and scheduling coordination of distributed systems or clusters of computers**. Etcd helps facilitate more secure automatic updates, coordinates scheduling to hosts, and helps set up the container's overlay network.
