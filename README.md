@@ -29,6 +29,7 @@ ETCDWP should be:
 1. **Flexible operation of KV key value**
     
     Supports operations such as adding, deleting, modifying, and checking the KV key value of etcd.
+    Supports import key-values in batches, export key-values in batches.
 
 2. **Cluster member management**
 
