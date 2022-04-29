@@ -16,7 +16,13 @@ English | [简体中文](./README_zh.md)
 
 - 界面效果图：
 
+- home 
+
 ![ETCDWP](etcdwp.png "ETCDWP")
+
+- kv
+
+![ETCDWP](etcdwp-kv.png "ETCDWP")
 ## ETCDWP
 
 Etcd is **an open source distributed unified key-value store for shared configuration, service discovery, and scheduling coordination of distributed systems or clusters of computers**. Etcd helps facilitate more secure automatic updates, coordinates scheduling to hosts, and helps set up the container's overlay network.
