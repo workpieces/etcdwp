@@ -1,72 +1,47 @@
-![ETCDWP](icon.png "ETCDWP")
+![ETCDWP](./arch/icon.png "ETCDWP")
 
 ---
+
 [![MPLv2 License][6]][7]
 [![Discord invite][8]][9]
 [![Docs site][5]][3]
 [![Latest Mac Download][10]][2]
 
+# etcdWp
 
-English | [简体中文](./README_zh.md)
-## Support
+**etcdWp**是一款免费且支持Macos桌面的etcd客户端桌面。支持对etcd单机版和集群版键值存储做增删改查等操作。
+同时，也增加对etcd集群资源和成员操作。
 
-- 该产品免费使用.
+# 功能支持
 
-- **Macos Version >= 11.0**
+- 支持增加,删除,修改,查看。
+- 支持对键值批量导出,批量导入。
+- 支持对租约增加,删除,修改,查看。
+- 支持对集群成员增加,删除,修改,查看。
+- 支持对用户增加,删除,修改,查看。
+- 支持显示对集群资源,leader状态。
+- 支持键值平铺及树形结构展示。
+- 增加对etcd操作日志显示。
 
-- 界面效果图：
+# 界面效果
 
-- home 
+### 首页
 
-![ETCDWP](etcdwp.png "ETCDWP")
+![首页](arch/WechatIMG627.png)
 
-- kv
+### 键值界面 
 
-![ETCDWP](etcdwp-kv.png "ETCDWP")
-## ETCDWP
-
-Etcd is **an open source distributed unified key-value store for shared configuration, service discovery, and scheduling coordination of distributed systems or clusters of computers**. Etcd helps facilitate more secure automatic updates, coordinates scheduling to hosts, and helps set up the container's overlay network.
-
-Etcd is a **core component of many other projects. Most notably, it is the primary data store for Kubernetes and the de facto standard system for container orchestration**. Using ETCD, cloud native applications can maintain more consistent uptime and function in the event of individual server failures. The application reads data from etCD and writes to it; Distributed configuration data provides redundancy and flexibility for node configuration.
-
-
-ETCDWP should be:
-
-1. **Flexible operation of KV key value**
-    
-    Supports operations such as adding, deleting, modifying, and checking the KV key value of etcd.
-    Supports import key-values in batches, export key-values in batches.
-
-2. **Cluster member management**
-
-    Increase the addition, deletion, modification and inspection of etcd cluster members, as well as cluster resources, leader status, etc.
-
-3. **Easy to Use**
-
-    User interaction should be required only when absolutely necessary.
-
-4. **Log Monitoring**
-
-    Add audit log, increase operator's feedback on etcd database operation and other exceptions and result information
-
-5. **Feature**
-
-    Increase the terminal operation and the usage of etcd resource list, welcome your comments and feedback to issuse, we will pay close attention
+![](arch/WechatIMG630.png)
 
 
-## Download
+# 下载
 
-- Apple store download please visit [APP Store][1]
+-  **[苹果商店下载][1]**
+-  **[DMG下载][2]**
 
+# 使用文档
 
-- DMG download please visit [DMG Release][2]
-
-
-## Documentation
-
-Please see the ETCDWP [documentation site][3]
-
-All code is licensed under the [MPLv2 License][4].
+- **[请参阅ETCDWP操作文档使用][3]**
 
 [1]: https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12
 [2]: https://github.com/workpieces/etcdWpSite/releases
