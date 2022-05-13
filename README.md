@@ -45,7 +45,7 @@
 
 [1]: https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12
 [2]: https://github.com/workpieces/etcdWpSite/releases
-[3]: https://github.com/workpieces/etcdWpSite/wiki
+[3]: https://github.com/workpieces/etcdWp/blob/main/WIKI.md
 [4]: https://github.com/workpieces/etcdWpSite/blob/main/LICENSE
 [5]: https://img.shields.io/badge/Docs-Learn%20more-ffc7c7
 [6]: https://img.shields.io/badge/license-MPLv2-blue.svg?style=flat-square
