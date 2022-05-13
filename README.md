@@ -42,6 +42,7 @@
 # 使用文档
 
 - **[请参阅ETCDWP操作文档使用][3]**
+- **[请参阅ETCDWP说明文档使用][11]**
 
 [1]: https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12
 [2]: https://github.com/workpieces/etcdWpSite/releases
@@ -53,4 +54,5 @@
 [8]: https://img.shields.io/badge/Discord-Come%20and%20chill-blue
 [9]: https://github.com/workpieces/etcdWpSite/issues
 [10]: https://img.shields.io/teamcity/https/build.syncthing.net/s/Syncthing_BuildMac.svg?style=flat-square&label=mac+build
+[11]:https://github.com/workpieces/etcdWp/wiki
 
