@@ -1,4 +1,4 @@
-![ETCDWP](./arch/icon.png "ETCDWP")
+![ETCDWP](https://github.com/workpieces/etcdWp/blob/main/arch/icon.png)
 
 ---
 
@@ -9,7 +9,7 @@
 
 # etcdWp
 
-**etcdWp**是一款免费且支持Macos桌面的etcd客户端桌面。支持对etcd单机版和集群版键值存储做增删改查等操作。
+**etcdWp**是一款免费且支持Macos桌面的etcd客户端桌面 (Mac Version >= 11.0)。支持对etcd单机版和集群版键值存储做增删改查等操作。
 同时，也增加对etcd集群资源和成员操作。
 
 # 功能支持
