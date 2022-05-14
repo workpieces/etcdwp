@@ -27,7 +27,7 @@
 
 - **[ETCDWP单机版使用示例](https://github.com/workpieces/etcdWp/blob/main/test/SINGLE.md)**
 - **[ETCDWP集群版使用示例](https://github.com/workpieces/etcdWp/blob/main/test/CLUSTER.md)**
-- **[ETCD证书制作示例]()**
+- **[ETCD证书制作示例](https://github.com/workpieces/etcdWp/blob/main/cert/README.md)**
 
 # 主界面视图
 
