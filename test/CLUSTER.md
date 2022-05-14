@@ -20,6 +20,8 @@ docker-compose -f cluster.yaml up -d
 
 ## 添加键值测试
 
+如果服务显示异常，可点击`开启服务`按钮。
+
 ![img_4.png](img_4.png)
 
 
