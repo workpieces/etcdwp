@@ -40,8 +40,7 @@
 
 # 使用文档
 
-- **[请参阅ETCDWP操作文档使用][3]**
-- **[请参阅ETCDWP说明文档使用][11]**
+- [请参阅ETCDWP操作文档使用][3]
 
 [1]: https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12
 [2]: https://github.com/workpieces/etcdWpSite/releases
