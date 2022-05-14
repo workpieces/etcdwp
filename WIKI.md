@@ -57,10 +57,12 @@
 ![](arch/WX20220513-194954.png)
 #### 8.3 提升成员
 ![](arch/WX20220513-195025.png)
-
-## 九、批量导入导出
-#### 9.1 批量导出json文件
+## 九、集群资源相关
+- **[ETCDWP单机版使用示例](https://github.com/workpieces/etcdWp/blob/main/test/SINGLE.md)**
+- **[ETCDWP集群版使用示例](https://github.com/workpieces/etcdWp/blob/main/test/CLUSTER.md)**
+## 十、批量导入导出
+#### 10.1 批量导出json文件
 ![](arch/WX20220513-195559.png)
-#### 9.2 批量导入json文件
+#### 10.2 批量导入json文件
 ![](arch/WX20220513-195909.png)
 

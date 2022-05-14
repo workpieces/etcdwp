@@ -23,16 +23,15 @@
 - [X] 支持键值平铺及树形结构展示。
 - [X] 增加对etcd操作日志显示。
 
-# 界面效果
+# 快速开始
 
-### 首页
+- **[ETCDWP单机版使用示例](https://github.com/workpieces/etcdWp/blob/main/test/SINGLE.md)**
+- **[ETCDWP集群版使用示例](https://github.com/workpieces/etcdWp/blob/main/test/CLUSTER.md)**
+- **[ETCD证书制作示例](https://github.com/workpieces/etcdWp/blob/main/cert/README.md)**
 
-![HOME](arch/WechatIMG627.png)
+# 主界面视图
 
-### 键值界面 
-
-![KV](arch/WechatIMG630.png)
-
+![](test/none/img_4.png)
 
 # 下载
 
@@ -41,8 +40,7 @@
 
 # 使用文档
 
-- **[请参阅ETCDWP操作文档使用][3]**
-- **[请参阅ETCDWP说明文档使用][11]**
+- [请参阅ETCDWP操作文档使用][3]
 
 [1]: https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12
 [2]: https://github.com/workpieces/etcdWpSite/releases
