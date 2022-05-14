@@ -3,7 +3,7 @@
 ## Docker启动服务
 
 ```shell
-docker compose -f single-docker-compose.yaml up -d 
+docker compose -f single.yaml up -d 
 ```
 
 ## 连接测试
