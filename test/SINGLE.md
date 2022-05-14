@@ -8,11 +8,15 @@ docker compose -f single.yaml up -d
 
 ## 连接测试
 
-![img.png](img.png)
+![img.png](none/img.png)
 
 ## 添加键值测试
 
-![img_1.png](img_1.png)
+![img_1.png](none/img_1.png)
 
 ## 证书测试
+
+- [证书制作参考](https://github.com/workpieces/etcdWp/blob/main/cert/README.md)
+
+
 

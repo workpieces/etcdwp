@@ -31,7 +31,7 @@
 
 # 主界面视图
 
-![](test/img_4.png)
+![](test/none/img_4.png)
 
 # 下载
 

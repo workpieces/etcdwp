@@ -1,6 +1,6 @@
 # ETCD证书制作
 
-[copy from https://www.daimajiaoliu.com/daima/479c1bcd1100414](https://www.daimajiaoliu.com/daima/479c1bcd1100414)
+- [参考文献](https://wiki.shileizcc.com/confluence/display/etcd/Etcd+TLS)
 
 ## 生成ca证书
 
