@@ -18,5 +18,15 @@ docker compose -f single.yaml up -d
 
 - [证书制作参考](https://github.com/workpieces/etcdWp/blob/main/cert/README.md)
 
+证书对应:
 
+```go
+tlsInfo := transport.TLSInfo{
+  CertFile:      "/tmp/test-certs/test-name-1.pem",
+  KeyFile:       "/tmp/test-certs/test-name-1-key.pem",
+  TrustedCAFile: "/tmp/test-certs/trusted-ca.pem",
+ }
+```
+
+![](none/20571652523373_.pic.jpg)
 
