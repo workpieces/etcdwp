@@ -23,16 +23,15 @@
 - [X] 支持键值平铺及树形结构展示。
 - [X] 增加对etcd操作日志显示。
 
-# 界面效果
+# 快速开始
 
-### 首页
+- **[ETCDWP单机版使用示例](https://github.com/workpieces/etcdWp/blob/main/test/SINGLE.md)**
+- **[ETCDWP集群版使用示例](https://github.com/workpieces/etcdWp/blob/main/test/CLUSTER.md)**
 
-![HOME](arch/WechatIMG627.png)
 
-### 键值界面 
+# 主界面视图
 
-![KV](arch/WechatIMG630.png)
-
+![](test/img_4.png)
 
 # 下载
 
