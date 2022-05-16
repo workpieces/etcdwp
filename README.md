@@ -38,10 +38,6 @@
 - **[苹果商店下载][1]**
 - **[DMG下载][2]**
 
-# DMG操作示例
-
-<img src="WechatIMG574.png" alt="WechatIMG574" style="zoom:30%;" />
-
 # 使用文档
 
 - [请参阅ETCDWP操作文档使用][3]
