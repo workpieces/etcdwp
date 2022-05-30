@@ -1,3 +1,7 @@
+简体中文| [English](./README_EN.md)
+
+---
+
 ![ETCDWP](arch/icon.png)
 
 ---
@@ -40,7 +44,7 @@
 
 # 使用文档
 
-- [请参阅ETCDWP操作文档使用][3]
+- **[请参阅ETCDWP操作文档使用][3]**
 
 [1]: https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12
 [2]: https://github.com/workpieces/etcdWpSite/releases
