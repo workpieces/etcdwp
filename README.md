@@ -11,7 +11,7 @@ What's more, **etcdwp 2 is free 💰 to download**! Don't hesitate, download it 
 *(or searching "etcdwp" on macOS App Store if the above link doesn't work for you.)*
 
 
-![etcdwp](./assets/screen.png)
+![etcdwp](https://github.com/workpieces/etcdwp/blob/main/assets/screen.png)
 
 ------
 
@@ -62,7 +62,6 @@ You can download compiled installer of etcdwp for Linux from the below page
 * Cluster mana`gement`
 
 ## Contributors
-
 <table><tr><td width="20%"><a href="https://github.com/zlbfzl2000"><img src="https://avatars.githubusercontent.com/u/21557155?v=4"/></a><p align="center">luin</p></td><td width="20%"><a href="https://github.com/shumintao"><img src="https://avatars.githubusercontent.com/u/26895243?v=4"/></a><p align="center">kvnsmth</p></td></tr></table>
 
 
