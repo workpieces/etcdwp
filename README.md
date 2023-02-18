@@ -62,7 +62,7 @@ You can download compiled installer of etcdwp for Linux from the below page
 * Cluster mana`gement`
 
 ## Contributors
-<table><tr><td width="20%"><a href="https://github.com/zlbfzl2000"><img src="https://avatars.githubusercontent.com/u/21557155?v=4"/></a><p align="center">luin</p></td><td width="20%"><a href="https://github.com/shumintao"><img src="https://avatars.githubusercontent.com/u/26895243?v=4"/></a><p align="center">kvnsmth</p></td></tr></table>
+<table><tr><td width="5%"><a href="https://github.com/zlbfzl2000"><img src="https://avatars.githubusercontent.com/u/21557155?v=4"/></a><p align="center">zlbfzl2000</p></td><td width="5%"><a href="https://github.com/shumintao"><img src="https://avatars.githubusercontent.com/u/26895243?v=4"/></a><p align="center">shumintao</p></td></tr></table>
 
 
 ## License
