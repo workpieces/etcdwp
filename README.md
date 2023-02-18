@@ -1,60 +1,71 @@
-简体中文 | [English](./README-EN.md)
+# etcdwp
 
----
+### Notice: We just released etcdwp 2! 🚀🚀🚀
 
-![ETCDWP](arch/icon.png)
+Compared to etcdwp (this repo), etcdwp 2 provides more delightful features, such as **Key-value management** (yes, finally!), **dark mode**, and more. Besides that, etcdwp 2 is rewritten from the beginning with native technology, making it more morden, beautiful, and fast!
 
----
+What's more, **etcdwp 2 is free 💰 to download**! Don't hesitate, download it from the App Store now and try it out!
 
-[![MPLv2 License][6]][7]
-[![Discord invite][8]][9]
-[![Docs site][5]][3]
-[![Latest Mac Download][10]][2]
+[![Download on the App Store](./assets/download.svg)](https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12)
 
-# etcdWp
+*(or searching "etcdwp" on macOS App Store if the above link doesn't work for you.)*
 
-**etcdWp**是一款免费且支持Macos桌面的etcd客户端桌面 **(Mac Version >= 11.0)**。支持对etcd单机版和集群版键值存储做增删改查等操作。
-同时，也增加对etcd集群资源和成员操作。
 
-# 功能支持
+![etcdwp](./assets/screen.png)
 
-- [X] 支持增加,删除,修改,查看。
-- [X] 支持对键值批量导出,批量导入。
-- [X] 支持对租约增加,删除,修改,查看。
-- [X] 支持对集群成员增加,删除,修改,查看。
-- [X] 支持对用户增加,删除,修改,查看。
-- [X] 支持显示对集群资源,leader状态。
-- [X] 支持键值平铺及树形结构展示。
-- [X] 增加对etcd操作日志显示。
+------
 
-# 快速开始
+etcdwp is a beautiful, easy-to-use Redis management application built on the modern web with [Golang](https://github.com/golang/go), [Flutter](https://github.com/flutter/flutter), and [SwiftUI](https://github.com/apple/swift).
 
-- **[ETCDWP单机版使用示例](https://github.com/workpieces/etcdWp/blob/main/test/SINGLE.md)**
-- **[ETCDWP集群版使用示例](https://github.com/workpieces/etcdWp/blob/main/test/CLUSTER.md)**
-- **[ETCD证书制作示例](https://github.com/workpieces/etcdWp/blob/main/cert/README.md)**
+etcdwp starts with all the basic features you need:
 
-# 主界面视图
+* Keys viewing/editing
+* Config viewing/editing
+* Multi-client connections
+* Role/User management
+* k8s cluster information view
 
-![](test/none/img_4.png)
+It also supports many advanced features:
 
-# 下载
+* JSON/MessagePack format viewing/editing and built-in highlighting/validator
+* Working with millions keys and key members without blocking the etcdwp server
+* Pattern manager for easy selecting a sub group of keys.
+* SSH Tunnel for connecting with remote servers
+* Terminal for executing custom commands
 
-- **[苹果商店下载][1]**
-- **[DMG下载][2]**
+**Note**: etcdwp only supports etcd >= 3.0.
 
-# 使用文档
+## Download etcdwp on Windows
 
-- **[请参阅ETCDWP操作文档使用][3]**
+You can download compiled installer of etcdwp for Windows from the below page
+[download page](https://github.com/workpieces/etcdwp/releases).
 
-[1]: https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12
-[2]: https://github.com/workpieces/etcdWpSite/releases
-[3]: https://github.com/workpieces/etcdWp/blob/main/WIKI.md
-[4]: https://github.com/workpieces/etcdWpSite/blob/main/LICENSE
-[5]: https://img.shields.io/badge/Docs-Learn%20more-ffc7c7
-[6]: https://img.shields.io/badge/license-MPLv2-blue.svg?style=flat-square
-[7]: https://www.mozilla.org/MPL/2.0/
-[8]: https://img.shields.io/badge/Discord-Come%20and%20chill-blue
-[9]: https://github.com/workpieces/etcdWpSite/issues
-[10]: https://img.shields.io/teamcity/https/build.syncthing.net/s/Syncthing_BuildMac.svg?style=flat-square&label=mac+build
-[11]:https://github.com/workpieces/etcdWp/wiki
+## Download etcdwp on Mac
 
+You can download compiled versions of etcdwp for Mac OS X from [the release page](https://github.com/workpieces/etcdwp/releases).
+
+## Download etcdwp on Linux
+
+You can download compiled installer of etcdwp for Linux from the below page
+[download page](https://github.com/workpieces/etcdwp/releases).
+
+## I Love This. How do I Help?
+
+* Simply star this repository :-)
+* Help us spread the world on Facebook and Twitter
+* Contribute Code! We're developers! (See Roadmap below)
+* etcdwp is available on the Mac App Store as a paid software. I'll be very grateful if you'd like to buy it to encourage me to continue maintaining etcdwp. There are no additional features comparing with the open-sourced version, except the fact that you can enjoy auto updating that brought by the Mac App Store. <br> [![Download on the App Store](./assets/download.svg)](https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12)
+
+## Roadmap
+
+* Windows and Linux version
+* Cluster mana`gement`
+
+## Contributors
+
+<table><tr><td width="20%"><a href="https://github.com/zlbfzl2000"><img src="https://avatars.githubusercontent.com/u/21557155?v=4"/></a><p align="center">luin</p></td><td width="20%"><a href="https://github.com/shumintao"><img src="https://avatars.githubusercontent.com/u/26895243?v=4"/></a><p align="center">kvnsmth</p></td></tr></table>
+
+
+## License
+
+MIT
