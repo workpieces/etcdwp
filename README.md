@@ -17,7 +17,7 @@ What's more, **etcdwp 2 is free 💰 to download**! Don't hesitate, download it 
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://github.com/workpieces/etcdwp/issues)
 
-etcdwp is a beautiful, easy-to-use Redis management application built on the modern web with [Golang](https://github.com/golang/go), [Flutter](https://github.com/flutter/flutter), and [SwiftUI](https://github.com/apple/swift).
+etcdwp is a beautiful, easy-to-use etcd management application built on the modern web with [Golang](https://github.com/golang/go), [Flutter](https://github.com/flutter/flutter), and [SwiftUI](https://github.com/apple/swift).
 
 etcdwp starts with all the basic features you need:
 
