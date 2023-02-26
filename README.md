@@ -11,6 +11,8 @@ What's more, **etcdwp 2 is free 💰 to download**! Don't hesitate, download it 
 
 [![Download on the App Store](https://github.com/workpieces/etcdwp/blob/main/assets/download.svg)](https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12)
 
+[![Download DMG](https://github.com/workpieces/etcdwp/blob/main/assets/dmg.png)](https://github.com/workpieces/etcdwp/releases)
+
 *(or searching "etcdwp" on macOS App Store if the above link doesn't work for you.)*
 
 
