@@ -1,3 +1,4 @@
+
 # etcdwp
 
 ### Notice: We just released etcdwp 2! 🚀🚀🚀  Now Only DMG installation is supported, Apple Store download is not supported.
@@ -11,7 +12,7 @@ What's more, **etcdwp 2 is free 💰 to download**! Don't hesitate, download it 
 *(or searching "etcdwp" on macOS App Store if the above link doesn't work for you.)*
 
 
-![etcdwp](https://github.com/workpieces/etcdwp/blob/main/assets/screen.png)
+![etcdwp](https://github.com/workpieces/etcdwp/blob/main/assets/screen.jpg)
 
 ------
 
