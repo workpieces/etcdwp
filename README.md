@@ -1,6 +1,6 @@
 # etcdwp
 
-### Notice: We just released etcdwp 2! 🚀🚀🚀
+### Notice: We just released etcdwp 2! 🚀🚀🚀  Now Only DMG installation is supported, Apple Store download is not supported.
 
 Compared to etcdwp (this repo), etcdwp 2 provides more delightful features, such as **Key-value management** (yes, finally!), **dark mode**, and more. Besides that, etcdwp 2 is rewritten from the beginning with native technology, making it more morden, beautiful, and fast!
 
