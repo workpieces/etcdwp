@@ -1,0 +1,38 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: flutter web
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: ceate build web
+    env:
+      my_secret: ${{secrets.workpieces_websit_secret}}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+      - uses: erickzanardo/flutter-gh-pages@v7
+        with:
+          basehref: /etcdwp/
+      - run: flutter config --enable-web
+      - run: flutter pub get
+      - run: flutter build web --release
+      - run: |
+          cd build/web
+          git init
+          git config --global user.email zlbfzl@163.com
+          git config --global user.name zlbfzl
+          git status
+          git remote add origin https://${{secrets.workpieces_websit_secret}}@github.com/workpieces/etcdwp.git
+          git checkout -b gh-pages
+          git add --all
+          git commit -m "update"
+          git push origin gh-pages -f
