@@ -22,6 +22,7 @@ jobs:
       - uses: erickzanardo/flutter-gh-pages@v7
         with:
           basehref: /etcdwp/
+      - run: flutter clean
       - run: flutter config --enable-web
       - run: flutter pub get
       - run: flutter build web --base-href /etcdwp/ --release
