@@ -9,12 +9,12 @@ Compared to etcdwp (this repo), etcdwp 2 provides more delightful features, such
 
 What's more, **etcdwp 2 is free 💰 to download**! Don't hesitate, download it from the App Store now and try it out!
 
-[![Download on the App Store](https://github.com/workpieces/etcdwp/blob/main/logo/download.svg)](https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12)
+[![Download on the App Store](https://github.com/workpieces/etcdwp/blob/master/logo/download.svg)](https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12)
 
 *(or searching "etcdwp" on macOS App Store if the above link doesn't work for you.)*
 
 
-![etcdwp](https://github.com/workpieces/etcdwp/blob/main/logo/screen.jpg)
+![etcdwp](https://github.com/workpieces/etcdwp/blob/master/logo/screen.jpg)
 
 ------
 
@@ -59,7 +59,7 @@ You can download compiled installer of etcdwp for Linux from the below page
 * Simply star this repository :-)
 * Help us spread the world on Facebook and Twitter
 * Contribute Code! We're developers! (See Roadmap below)
-* etcdwp is available on the Mac App Store as a paid software. I'll be very grateful if you'd like to buy it to encourage me to continue maintaining etcdwp. There are no additional features comparing with the open-sourced version, except the fact that you can enjoy auto updating that brought by the Mac App Store. <br> [![Download on the App Store](https://github.com/workpieces/etcdwp/blob/main/logo/download.svg)](https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12)
+* etcdwp is available on the Mac App Store as a paid software. I'll be very grateful if you'd like to buy it to encourage me to continue mastertaining etcdwp. There are no additional features comparing with the open-sourced version, except the fact that you can enjoy auto updating that brought by the Mac App Store. <br> [![Download on the App Store](https://github.com/workpieces/etcdwp/blob/master/logo/download.svg)](https://apps.apple.com/cn/app/etcdwp/id1617626187?mt=12)
 
 ## Roadmap
 
