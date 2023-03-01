@@ -31,11 +31,11 @@ class WPWSHomeDesktopPageBottomDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width;
-    var itemWidth = (width * 0.5 - 10) * 0.5;
-    var itemHeight = 150.0;
+    var itemWidth = (width * 0.65 - 10) * 0.5;
+    var itemHeight = 120.0;
     var childAspectRatio = itemWidth / itemHeight;
     return SizedBox(
-      width: width * 0.5,
+      width: width * 0.65,
       child: GridView.builder(
           itemCount: WPWSHomeModel.getLists.length,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -56,8 +56,8 @@ class WPWSHomeDesktopPageBottomDetail extends StatelessWidget {
                       WPWSHomeModel.getLists[index].title,
                       style: GoogleFonts.sourceSerifPro(
                         textStyle: const TextStyle(
-                          fontWeight: FontWeight.w800,
-                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
                           color: Color(0xB5000000),
                         ),
                       ),
@@ -86,6 +86,7 @@ class WPWSHomeDesktopPageBottomDetail extends StatelessWidget {
 
 class WPWSHomeDesktopPageBottomPrivacyRelated extends StatelessWidget {
   const WPWSHomeDesktopPageBottomPrivacyRelated({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -106,7 +107,7 @@ class WPWSHomeDesktopPageBottomPrivacyRelated extends StatelessWidget {
                   ),
                   child: SvgPicture.asset("images/svg/producthunt.svg"),
                 )),
-            const SizedBox(height: 60),
+            const SizedBox(height: 44),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children:
@@ -144,7 +145,7 @@ class WPWSHomeDesktopPageBottomPrivacyRelated extends StatelessWidget {
             const SizedBox(height: 30),
             Center(
               child: Text(
-                  "Etcd is a trademark of Etcd Ltd. Etcd Ltd reserves any rights therein. Any use of the etcdwp Application is for informational purposes \n only and does not imply any sponsorship, endorsement, or affiliation between Etcd and the etcdwp Application Program.",
+                  "Etcd is a trademark of Etcd Ltd. Etcd Ltd reserves any rights therein. Any use of the etcdwp Application is for informational purposes \n only and does not imply any sponsorship, endorsement, or affiliation between Etcd and the etcdwp Application Program.\n\n Copyright © Beijing Xiadat Technology Co.,Ltd. All Rights",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontWeight: FontWeight.w400,
