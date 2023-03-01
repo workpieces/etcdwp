@@ -3,6 +3,8 @@
 
 ### Notice: We just released etcdwp 2! 🚀🚀🚀
 
+**etcdwp 2!Now only supports DMG installation.**
+
 Compared to etcdwp (this repo), etcdwp 2 provides more delightful features, such as **Key-value management** (yes, finally!), **dark mode**, and more. Besides that, etcdwp 2 is rewritten from the beginning with native technology, making it more morden, beautiful, and fast!
 
 What's more, **etcdwp 2 is free 💰 to download**! Don't hesitate, download it from the App Store now and try it out!
@@ -13,7 +15,8 @@ What's more, **etcdwp 2 is free 💰 to download**! Don't hesitate, download it 
 
 ![etcdwp](https://github.com/workpieces/etcdwp/blob/master/logo/screen.jpg)
 
-**etcdwp 2! 🚀🚀🚀 only supports DMG installation.**
+
+[![Macos install DMG](https://github.com/workpieces/etcdwp/blob/master/logo/dmg.svg)](https://github.com/workpieces/etcdwp/releases)
 
 [![Macos install DMG](https://github.com/workpieces/etcdwp/blob/master/logo/etcdwp.gif)](https://github.com/workpieces/etcdwp/blob/master/logo/etcdwp.gif)
 
