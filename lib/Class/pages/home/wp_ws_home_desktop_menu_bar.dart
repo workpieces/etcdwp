@@ -13,7 +13,7 @@ class WPWSHomeDesktopMenuBar extends StatelessWidget {
       height: 88,
       child: Center(
         child: SizedBox(
-          width: width * 0.5,
+          width: width * 0.7,
           child: Row(
             children: [
               Image.asset(
