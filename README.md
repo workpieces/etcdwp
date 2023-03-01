@@ -15,10 +15,9 @@ What's more, **etcdwp 2 is free 💰 to download**! Don't hesitate, download it 
 
 ![etcdwp](https://github.com/workpieces/etcdwp/blob/master/logo/screen.jpg)
 
+[![Macos install DMG](https://github.com/workpieces/etcdwp/blob/master/logo/dmg.png)](https://github.com/workpieces/etcdwp/releases)
 
-[![Macos install DMG](https://github.com/workpieces/etcdwp/blob/master/logo/dmg.svg)](https://github.com/workpieces/etcdwp/releases)
-
-[![Macos install DMG](https://github.com/workpieces/etcdwp/blob/master/logo/etcdwp.gif)](https://github.com/workpieces/etcdwp/blob/master/logo/etcdwp.gif)
+![etcdwp](https://github.com/workpieces/etcdwp/blob/master/logo/etcdwp.gif)
 
 ------
 
