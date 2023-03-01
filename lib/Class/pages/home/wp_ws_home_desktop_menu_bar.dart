@@ -101,7 +101,7 @@ class WPWSHomeDesktopMenuBar extends StatelessWidget {
                   },
                   child: Center(
                     child: Image.asset(
-                      "images/logo/twitter.png",
+                      "images/web_icon/twitter.png",
                       height: 30,
                       width: 30,
                       color: Colors.grey,
@@ -127,7 +127,7 @@ class WPWSHomeDesktopMenuBar extends StatelessWidget {
                   },
                   child: Center(
                     child: Image.asset(
-                      "images/logo/github.png",
+                      "images/web_icon/github.png",
                       height: 25,
                       width: 25,
                       color: Colors.grey,
