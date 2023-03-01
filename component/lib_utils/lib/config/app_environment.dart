@@ -1,0 +1,1 @@
+enum APPEnvironment { develop, release }
