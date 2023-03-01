@@ -5,6 +5,8 @@
 
 **(But Now Only DMG installation is supported, Apple Store download is not supported.)**
 
+![etcdwp](https://github.com/workpieces/etcdwp/blob/master/logo/etcdwp.gif)
+
 Compared to etcdwp (this repo), etcdwp 2 provides more delightful features, such as **Key-value management** (yes, finally!), **dark mode**, and more. Besides that, etcdwp 2 is rewritten from the beginning with native technology, making it more morden, beautiful, and fast!
 
 What's more, **etcdwp 2 is free 💰 to download**! Don't hesitate, download it from the App Store now and try it out!
