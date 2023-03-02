@@ -97,7 +97,7 @@ class WPWSHomePageMobileTitle extends StatelessWidget {
                     borderRadius: BorderRadius.circular((8.0)),
                   ),
                   height: 44,
-                  width: 180,
+                  width: 140,
                   child: SvgPicture.asset(
                     "images/svg/download.svg",
                     fit: BoxFit.fill,
@@ -118,7 +118,7 @@ class WPWSHomePageMobileTitle extends StatelessWidget {
                     borderRadius: BorderRadius.circular((8.0)),
                   ),
                   height: 44,
-                  width: 180,
+                  width: 140,
                   child: Padding(
                     padding: const EdgeInsets.only(left: 8.0, right: 8),
                     child: Column(

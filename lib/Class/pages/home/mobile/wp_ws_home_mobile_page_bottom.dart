@@ -90,7 +90,7 @@ class WPWSHomeMobilePageBottomPrivacyRelated extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-        height: 280,
+        height: 240,
         child: Column(
           children: [
             InkWell(
@@ -131,7 +131,7 @@ class WPWSHomeMobilePageBottomPrivacyRelated extends StatelessWidget {
                             style: GoogleFonts.sourceSerifPro(
                               textStyle: const TextStyle(
                                 fontWeight: FontWeight.w600,
-                                fontSize: 10,
+                                fontSize: 9,
                                 color: Color(0xB2000000),
                               ),
                             ),
@@ -149,7 +149,7 @@ class WPWSHomeMobilePageBottomPrivacyRelated extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontWeight: FontWeight.w400,
-                    fontSize: 11,
+                    fontSize: 10,
                     color: const Color(0xB2000000),
                     fontFamily: TextStyleConstant.fontFamily,
                   )),
