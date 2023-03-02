@@ -1,4 +1,4 @@
-package com.workpieces_website.workpieceswebsite
+package com.example.etcdwp
 
 import io.flutter.embedding.android.FlutterActivity
 

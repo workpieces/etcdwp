@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.workpieces_website.workpieceswebsite">
+    package="com.example.etcdwp">
    <application
-        android:label="workpieceswebsite"
+        android:label="etcdwp"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

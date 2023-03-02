@@ -6,6 +6,7 @@ import 'package:lib_utils/devices_common_utils/device_common_utils.dart';
 import 'package:lib_utils/preference/util_preference_manager.dart';
 import 'package:logger/logger.dart';
 import 'package:workpieceswebsite/Class/pages/home/wp_ws_home_desktop_page.dart';
+import 'package:workpieceswebsite/Class/pages/home/wp_ws_home_mobile_page.dart';
 
 class WorkpiecesWebsitesHomePage extends BaseView {
   WorkpiecesWebsitesHomePage({super.key});
@@ -25,11 +26,11 @@ class WorkpiecesWebsitesHomePage extends BaseView {
   @override
   Widget body(BuildContext context) {
     return const UtilsCommonDeviceUnit(
-      tiny: WPWSHomeDesktopPage(),
+      tiny: WPWSHomeMobilePage(),
       largeTablet: WPWSHomeDesktopPage(),
       desktop: WPWSHomeDesktopPage(),
       iPad: WPWSHomeDesktopPage(),
-      phone: WPWSHomeDesktopPage(),
+      phone: WPWSHomeMobilePage(),
     );
   }
 }
