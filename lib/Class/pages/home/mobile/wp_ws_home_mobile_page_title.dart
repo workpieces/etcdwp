@@ -54,7 +54,7 @@ class WPWSHomePageMobileTitle extends StatelessWidget {
                 shape: BoxShape.rectangle,
                 borderRadius: BorderRadius.circular((8.0)),
               ),
-              height: 40,
+              height: 44,
               width: 260,
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
