@@ -10,7 +10,7 @@
 </sparkle:releaseNotesLink>
 <sparkle:releaseNotesLink> https://github.com/workpieces/etcdwp/issues </sparkle:releaseNotesLink>
 <sparkle:fullReleaseNotesLink> https://github.com/workpieces/etcdwp/releases/tag/v2.0.1-beta </sparkle:fullReleaseNotesLink>
-<pubDate>Wed, 03 Apr 2023 16:58:11 +0000</pubDate>
+<pubDate>2023年 3月 4日 星期六</pubDate>
 <enclosure url="https://github.com/workpieces/etcdwp/releases/download/v2.0.1-beta/etcdwp_v2.0.0.dmg" sparkle:shortVersionString="2.0.1" sparkle:version="2.0.1" length="30514914" type="application/octet-stream" sparkle:edSignature="Xo4QEtPMayeqqRgX+s32IK2KgJAEf/rVP82l57fXt1XdDTwe3fMuAJsm3zIbVL1dfmSqMCfuDYUihqm/UgdtBw=="/>
 <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
 </item>
