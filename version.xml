@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
-<channel>
-<title>etcdwp</title>
-<description>Most recent changes with links to updates.</description>
-<language>en</language>
-<item>
-<title>Version 2.0.1</title>
-<sparkle:releaseNotesLink>
-<link>https://workpieces.github.io/etcdwp/</link>
-</sparkle:releaseNotesLink>
-<sparkle:releaseNotesLink> https://github.com/workpieces/etcdwp/issues </sparkle:releaseNotesLink>
-<sparkle:fullReleaseNotesLink> https://github.com/workpieces/etcdwp/releases/tag/v2.0.1-beta </sparkle:fullReleaseNotesLink>
-<pubDate>2023年 3月 4日 星期六</pubDate>
-<enclosure url="https://github.com/workpieces/etcdwp/releases/download/v2.0.1-beta/etcdwp_v2.0.0.dmg" sparkle:shortVersionString="2.0.1" sparkle:version="2.0.1" length="30514914" type="application/octet-stream" sparkle:edSignature="Xo4QEtPMayeqqRgX+s32IK2KgJAEf/rVP82l57fXt1XdDTwe3fMuAJsm3zIbVL1dfmSqMCfuDYUihqm/UgdtBw=="/>
-<sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-</item>
-</channel>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>etcdwp</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 2.0.1</title>
+            <sparkle:releaseNotesLink>
+             <link>https://workpieces.github.io/etcdwp/</link>
+            </sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>
+                https://github.com/workpieces/etcdwp/issues
+            </sparkle:releaseNotesLink>
+            <sparkle:fullReleaseNotesLink>
+                https://github.com/workpieces/etcdwp/releases/tag/v2.0.1-beta
+            </sparkle:fullReleaseNotesLink>
+            <pubDate>Wed, 03 Apr 2023 16:58:11 +0000</pubDate>
+            <enclosure
+                url="https://github.com/workpieces/etcdwp/releases/download/v2.0.1-beta/etcdwp_v2.0.0.dmg"
+                sparkle:shortVersionString="2.0.1"
+                sparkle:version="2.0.1"
+                length="30514914"
+                type="application/octet-stream"
+               sparkle:edSignature="Xo4QEtPMayeqqRgX+s32IK2KgJAEf/rVP82l57fXt1XdDTwe3fMuAJsm3zIbVL1dfmSqMCfuDYUihqm/UgdtBw=="
+            />
+            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+        </item>
+    </channel>
 </rss>
