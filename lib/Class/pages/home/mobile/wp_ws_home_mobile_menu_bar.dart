@@ -30,7 +30,7 @@ class WPWSHomeMobileMenuBar extends StatelessWidget {
                     style: GoogleFonts.sourceSerifPro(
                       textStyle: const TextStyle(
                         fontWeight: FontWeight.w700,
-                        fontSize: 20,
+                        fontSize: 15,
                         color: Color(0xff000000),
                       ),
                     )),
@@ -41,7 +41,7 @@ class WPWSHomeMobileMenuBar extends StatelessWidget {
               ),
               Container(
                 height: 40,
-                width: 120,
+                width: 60,
                 decoration: BoxDecoration(
                   color: const Color(0x72f1f1f1),
                   shape: BoxShape.rectangle,
@@ -54,7 +54,7 @@ class WPWSHomeMobileMenuBar extends StatelessWidget {
                   },
                   child: Center(
                     child: Text(
-                      "Documentation",
+                      "Doc",
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         fontSize: 12,
@@ -116,6 +116,9 @@ class WPWSHomeMobileMenuBar extends StatelessWidget {
                     ),
                   ),
                 ),
+              ),
+              const SizedBox(
+                width: 15,
               ),
             ],
           ),
