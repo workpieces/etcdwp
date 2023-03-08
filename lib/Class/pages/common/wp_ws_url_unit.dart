@@ -48,6 +48,6 @@ class WPWSURLUnit {
 
   static openProducthunt() {
     UrlLauncherUtil.openLauncherUtil(
-        Uri.parse("https://github.com/workpieces/etcdwp/wiki/privacy-en"));
+        Uri.parse("https://www.producthunt.com/posts/etcdwp?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-etcdwp"));
   }
 }
