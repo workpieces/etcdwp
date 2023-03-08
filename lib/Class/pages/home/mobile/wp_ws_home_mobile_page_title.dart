@@ -128,7 +128,7 @@ class WPWSHomePageMobileTitle extends StatelessWidget {
                         const SizedBox(
                           height: 5,
                         ),
-                        Text("macOS 11.0+",
+                        Text("macOS 10.14+",
                             style: TextStyle(
                               fontWeight: FontWeight.w600,
                               fontSize: 10,
