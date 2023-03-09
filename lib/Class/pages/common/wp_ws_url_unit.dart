@@ -19,7 +19,7 @@ class WPWSURLUnit {
 
   static openDownloader() {
     UrlLauncherUtil.openLauncherUtil(Uri.parse(
-        "https://github.com/workpieces/etcdwp/releases/download/v2.0.1-beta/etcdwp_v2.0.0.dmg"));
+        "https://github.com/workpieces/etcdwp/releases/download/v2.0.0/etcdwp_v2.0.0.dmg"));
   }
 
   static openIssues() {
@@ -47,8 +47,7 @@ class WPWSURLUnit {
   }
 
   static openProducthunt() {
-    
-    UrlLauncherUtil.openLauncherUtil(
-        Uri.parse("https://www.producthunt.com/posts/etcdwp?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-etcdwp"));
+    UrlLauncherUtil.openLauncherUtil(Uri.parse(
+        "https://www.producthunt.com/posts/etcdwp?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-etcdwp"));
   }
 }
