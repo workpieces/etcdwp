@@ -19,7 +19,7 @@ class WPWSURLUnit {
 
   static openDownloader() {
     UrlLauncherUtil.openLauncherUtil(Uri.parse(
-        "https://github.com/workpieces/etcdwp/releases/download/v2.0.0/etcdwp_v2.0.0.dmg"));
+        "https://github.com/workpieces/etcdwp/releases/download/v2.0.1/etcdwp.dmg"));
   }
 
   static openIssues() {
