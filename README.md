@@ -41,6 +41,10 @@ It also supports many advanced features:
 * SSH Tunnel for connecting with remote servers
 * Terminal for executing custom commands
 
+## ETCD TLS certificate production and certificate verification
+
+You can refer to the example here to configure a TLS certificate, if you do not generate a certificate, you can also refer to here. [ETCD TLS Example](https://github.com/workpieces/etcdwp/issues/25)
+
 **Note**: etcdwp only supports etcd >= 3.0.
 
 ## Download etcdwp on Windows
