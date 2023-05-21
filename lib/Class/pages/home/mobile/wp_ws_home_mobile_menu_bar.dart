@@ -47,7 +47,7 @@ class WPWSHomeMobileMenuBar extends StatelessWidget {
                 child: InkWell(
                   borderRadius: BorderRadius.circular((8.0)),
                   onTap: () {
-                    WPWSURLUnit.openGithub();
+                    WPWSURLUnit.openDeepAutoGithub();
                   },
                   child: Center(
                     child: Text(
