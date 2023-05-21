@@ -94,6 +94,7 @@ abstract class BaseController extends GetxController {
       showErrorMessage(exception.message);
     } on ApiException catch (exception) {
       _exception = exception;
+      showErrorMessage(exception.message);
     } on AppException catch (exception) {
       _exception = exception;
       showErrorMessage(exception.message);

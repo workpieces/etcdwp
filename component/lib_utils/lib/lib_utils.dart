@@ -30,6 +30,7 @@ export 'utils_get_page/utils_get_page.dart';
 export 'utils_padding/utils_margin_padding.dart';
 export 'utils_padding/utils_wiget_extension.dart';
 export 'utils_url_launcher/untils_url_launcher.dart';
+export 'network/exceptions/unauthorized_exception.dart';
 
 /// A Calculator.
 class Calculator {

@@ -30,7 +30,7 @@ abstract class BaseView<Controller extends BaseController>
   }
 
   Widget pageScaffold(BuildContext context) {
-    return UntilsBaseScaffold(
+    return Scaffold(
       //sets ios status bar color
       backgroundColor: pageBackgroundColor(),
       key: globalKey,

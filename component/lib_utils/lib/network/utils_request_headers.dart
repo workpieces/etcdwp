@@ -10,12 +10,15 @@ class UtilsRequestHeaderInterceptor extends InterceptorsWrapper {
   }
 
   Future<Map<String, String>> getCustomHeaders(RequestOptions options) async {
-    var customHeaders = {'Accept': 'application/json,*/*'};
+    var customHeaders = <String,String>{};
     if (!options.headers.keys.contains("content-type")) {
       customHeaders['content-type'] = 'application/json';
     }
+    if (!options.headers.keys.contains("Accept")) {
+      customHeaders['Accept'] = 'application/json,*/*';
+    }
     if (!options.headers.keys.contains("token")) {
-      customHeaders['token'] = '';
+        customHeaders['token'] = '';
     }
     return customHeaders;
   }

@@ -8,6 +8,11 @@ class WPWSURLUnit {
         Uri.parse("https://github.com/workpieces/etcdwp"));
   }
 
+  static openDeepAutoGithub() {
+    UrlLauncherUtil.openLauncherUtil(
+        Uri.parse("https://github.com/deepauto-io/DeepAuto-Chat"));
+  }
+
   static openTwitter() {
     UrlLauncherUtil.openLauncherUtil(Uri.parse("https://twitter.com/etcdwp"));
   }

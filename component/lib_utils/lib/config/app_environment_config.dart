@@ -1,7 +1,7 @@
 import 'package:logger/logger.dart';
 
 class APPEnvConfig {
-  final String baseUrl;
+  String baseUrl;
   final bool shouldCollectCrashLog;
   late final Logger logger;
   APPEnvConfig({

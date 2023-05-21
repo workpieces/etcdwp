@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class BaseCustomAppBar extends StatelessWidget with PreferredSizeWidget {
+class BaseCustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String? title;
   final List<Widget>? actions;
   final Widget? leading;
@@ -32,7 +32,12 @@ class BaseCustomAppBar extends StatelessWidget with PreferredSizeWidget {
       automaticallyImplyLeading: automaticallyImplyLeading,
       actions: actions,
       iconTheme: iconThemeData,
-      title: (title != null) ? AppBarTitle(text: title) : Container(),
+      title: (title != null)
+          ? AppBarTitle(
+              text: title,
+              textStyle: textStyle,
+            )
+          : Container(),
     );
   }
 }
@@ -40,14 +45,13 @@ class BaseCustomAppBar extends StatelessWidget with PreferredSizeWidget {
 class AppBarTitle extends StatelessWidget {
   final String? text;
   final TextStyle? textStyle;
-  const AppBarTitle({Key? key, this.text, this.textStyle}) : super(key: key);
+  AppBarTitle({Key? key, this.text, this.textStyle}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Text(
       text!,
-      style: textStyle == null
-          ? textStyle
-          : const TextStyle(
+      style: textStyle ??
+          const TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.w600,
               height: 1.15,

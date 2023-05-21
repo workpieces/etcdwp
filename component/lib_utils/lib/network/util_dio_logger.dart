@@ -41,14 +41,14 @@ class UtilsDioLogger extends Interceptor {
   static const int defaultMaxWidth = 90;
 
   UtilsDioLogger({
-    this.request = true,
+    this.request = false,
     this.requestHeader = false,
     this.requestBody = false,
     this.responseHeader = false,
-    this.responseBody = true,
-    this.error = true,
+    this.responseBody = false,
+    this.error = false,
     this.maxWidth = defaultMaxWidth,
-    this.compact = true,
+    this.compact = false,
     this.logPrint = print,
   });
 
@@ -89,7 +89,7 @@ class UtilsDioLogger extends Interceptor {
   @override
   void onError(DioError err, ErrorInterceptorHandler handler) {
     if (error) {
-      if (err.type == DioErrorType.response) {
+      if (err.type == DioErrorType.badResponse) {
         final uri = err.response?.requestOptions.uri;
         _printBoxed(
             header:
@@ -110,8 +110,8 @@ class UtilsDioLogger extends Interceptor {
 
   @override
   void onResponse(Response response, ResponseInterceptorHandler handler) {
-    _printResponseHeader(response);
     if (responseHeader) {
+      _printResponseHeader(response);
       final responseHeaders = <String, String>{};
       response.headers
           .forEach((k, list) => responseHeaders[k] = list.toString());

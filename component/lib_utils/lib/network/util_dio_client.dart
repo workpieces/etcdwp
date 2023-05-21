@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:dio/io.dart';
 import 'package:lib_utils/network/util_dio_logger.dart';
 import 'package:lib_utils/network/utils_request_headers.dart';
 import '../config/app_build_config.dart';
@@ -11,19 +14,23 @@ class DioClient {
 
   static const int _maxLineWidth = 90;
   static final _prettyDioLogger = UtilsDioLogger(
-      requestHeader: true,
-      requestBody: true,
+      request: APPBuildConfig.instance.environment != APPEnvironment.release,
+      requestHeader:
+          APPBuildConfig.instance.environment != APPEnvironment.release,
+      requestBody:
+          APPBuildConfig.instance.environment != APPEnvironment.release,
       responseBody:
-          APPBuildConfig.instance.environment == APPEnvironment.develop,
-      responseHeader: false,
-      error: true,
-      compact: true,
+          APPBuildConfig.instance.environment != APPEnvironment.release,
+      responseHeader:
+          APPBuildConfig.instance.environment != APPEnvironment.release,
+      error: APPBuildConfig.instance.environment != APPEnvironment.release,
+      compact: APPBuildConfig.instance.environment != APPEnvironment.release,
       maxWidth: _maxLineWidth);
 
   static final BaseOptions _options = BaseOptions(
     baseUrl: baseUrl,
-    connectTimeout: 60 * 1000,
-    receiveTimeout: 60 * 1000,
+    connectTimeout: const Duration(seconds: 60),
+    receiveTimeout: const Duration(seconds: 60),
   );
 
   static Dio get httpDio {
@@ -51,8 +58,17 @@ class DioClient {
   ///returns a Dio client with Access token in header
   ///Also adds a token refresh interceptor which retry the request when it's unauthorized
   static Dio get dioWithHeaderToken {
+    bool kIsWeb = identical(0, 0.0);
     _addInterceptors();
-
+    if (kIsWeb) {
+      return _instance!;
+    }
+    (_instance?.httpClientAdapter as IOHttpClientAdapter).onHttpClientCreate =
+        (client) {
+      client.badCertificateCallback =
+          (X509Certificate cert, String host, int port) => true;
+      return client;
+    };
     return _instance!;
   }
 
@@ -64,7 +80,7 @@ class DioClient {
   }
 
   static String _buildContentType(String version) {
-    return "user_defined_content_type+$version";
+    return version;
   }
 
   DioClient.setContentType(String version) {

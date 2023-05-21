@@ -36,6 +36,32 @@ class WPWSHomeMobileMenuBar extends StatelessWidget {
                     )),
               ),
               const Spacer(),
+              Container(
+                height: 50,
+                width: 150,
+                decoration: BoxDecoration(
+                  color: const Color(0x72f1f1f1),
+                  shape: BoxShape.rectangle,
+                  borderRadius: BorderRadius.circular((8.0)),
+                ),
+                child: InkWell(
+                  borderRadius: BorderRadius.circular((8.0)),
+                  onTap: () {
+                    WPWSURLUnit.openGithub();
+                  },
+                  child: Center(
+                    child: Text(
+                      "DeepAuto",
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        fontSize: 15,
+                        color: const Color(0xb5000000),
+                        fontFamily: TextStyleConstant.fontFamily,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
               const SizedBox(
                 width: 15,
               ),
